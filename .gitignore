@@ -1,25 +1,21 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-
-# Envs & secrets
+*.egg-info/
 .env
-*.env
 .venv/
 venv/
-env/
-djvenv/
+.env.*
+*.sqlite3
 
-# Django
-db.sqlite3
-/staticfiles/
-/media/
-*.log
+# Tests
+.coverage
+.pytest_cache/
 
-# IDE/OS
-.vscode/
+# IDE
 .idea/
+.vscode/
+
+# OS
 .DS_Store
 Thumbs.db
